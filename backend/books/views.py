@@ -14,10 +14,10 @@ class BookViewSet(viewsets.ModelViewSet):
 
 @api_view(['POST'])
 def upload_books(request):
-    """
-    Scrape and store books.
-    Expects: {"url": "https://example.com/books", "pages": 2}
-    """
+    
+    #Scrape and store books.
+    #Expects: {"url": "https://example.com/books", "pages": 2}
+    
     url = request.data.get('url')
     pages = request.data.get('pages', 2)
     if not url:
