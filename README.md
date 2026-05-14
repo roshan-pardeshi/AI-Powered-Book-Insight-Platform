@@ -19,7 +19,7 @@ A full-stack application for scraping, storing, and querying book data using AI-
 - Frontend: React + Tailwind CSS
 - Automation: Selenium
 
-## Setup Instructions
+
 
 ### Backend Setup
 
